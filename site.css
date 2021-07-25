@@ -286,6 +286,12 @@ align-items: center;
 
 
 }
+.responsive-image{
+ 
+    width: 100%;
+    height: auto;
+  
+}
 
 .about, 
 .projects, 
