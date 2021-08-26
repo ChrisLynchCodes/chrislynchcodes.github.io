@@ -34,5 +34,6 @@
       height: auto;
       max-width: 4rem;
       padding-top: 2rem;
+      filter: saturate(5);
     
   }
