@@ -73,18 +73,15 @@ main{
 }
 .icon-container-main{
   display: flex;
-  border: solid 1px rgb(230, 213, 213);
   justify-content: space-between;
  
 }
 
 .icon-container-main > div{
-
   display: flex;
   flex-direction: column;
 }
 .icon-container-main > div:nth-of-type(1){
-
   background-color: aliceblue;
 
 }
