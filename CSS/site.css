@@ -101,6 +101,7 @@ main{
     width: 100%;
     height: auto;
     max-width: 4rem;
+    border-radius: 50%;
 }
 
   /* .about, 
