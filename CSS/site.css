@@ -13,8 +13,10 @@
 body {
   /* ensure that the body takes up the entire vertical height of the device with  */
     height: 100vh;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     line-height: 1.6;
+    background-color: aliceblue;
+   
     
 
     
@@ -51,29 +53,39 @@ main{
   /* display: flex;
   flex-direction: column; */
   padding-top: 64px;
-  background-color: #2a9d8f;
+  
 }
 
 .landing-container{
-  
+  background-color: #161d20;
   padding: 1rem;
   padding-top: 10rem;
   width: 100%;
   position: relative;
   top: 30%;
 }
-.about{
+.landing-content{
   font-weight: 800;
   text-align: center;
   font-size: 2rem;
   line-height: 2.5rem;
+  color: #36498f;
 }
 
-.responsive-image{
+.icon-container-left{
+  display: flex;
+  flex-direction: column;
+}
+.icon-container-right{
+  display: flex;
+  flex-direction: column;
+}
+
+.responsive-icon{
  
     width: 100%;
     height: auto;
-    max-width: 466px;
+    max-width: 166px;
 }
 
   /* .about, 
