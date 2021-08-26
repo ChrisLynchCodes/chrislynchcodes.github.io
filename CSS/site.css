@@ -71,21 +71,46 @@ main{
   line-height: 2.5rem;
   color: #36498f;
 }
+.icon-container-main{
+  display: flex;
+  border: solid 1px rgb(230, 213, 213);
+  justify-content: space-between;
+ 
+}
 
-.icon-container-left{
+.icon-container-main > div{
+
   display: flex;
   flex-direction: column;
+}
+.icon-container-main > div:nth-of-type(1){
+
+  background-color: aliceblue;
+
+}
+.icon-container-main > div:nth-of-type(3){
+  background-color: aliceblue;
+
+}
+
+
+/* .icon-container-left{
+  display: flex;
+  flex-direction: column;
+
 }
 .icon-container-right{
   display: flex;
   flex-direction: column;
-}
+  align-self: flex-end;
+} */
 
 .responsive-icon{
  
     width: 100%;
     height: auto;
-    max-width: 166px;
+ 
+    max-width: 66px;
 }
 
   /* .about, 
