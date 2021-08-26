@@ -13,16 +13,20 @@
 body {
   /* ensure that the body takes up the entire vertical height of the device with  */
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 1.6;
-    background-color: #2a9d8f;
+    
+
+    
 }
 
 p{
   margin: 0.5em 0 0.5em 0;
 }
 
+/* .flex-wrapper{
 
+} */
 
 .container {
   max-width: 1000px;
@@ -34,18 +38,37 @@ p{
 } 
 
 
-
+#left-column-desktop{
+  display: none;
+}
+#right-column-desktop{
+  display: none;
+}
+  
   
 
 main{
   /* display: flex;
   flex-direction: column; */
   padding-top: 64px;
-
-
-
-
+  background-color: #2a9d8f;
 }
+
+.landing-container{
+  
+  padding: 1rem;
+  padding-top: 10rem;
+  width: 100%;
+  position: relative;
+  top: 30%;
+}
+.about{
+  font-weight: 800;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
 .responsive-image{
  
     width: 100%;
@@ -53,27 +76,15 @@ main{
     max-width: 466px;
 }
 
-.about, 
-.projects, 
-.contact,
-.gallery{
-  border-width: 0.1em;
-  border-color: rgb(0, 0, 0);
-  border-style: solid;
+  /* .about, 
+  .projects, 
+  .contact,
+  .guestbook{
+    border-width: 0.1em;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
 
-}
-.about{
-background-color: #ffadad;
-} 
-.projects{
-  background-color: #ffd6a5;
-} 
-.contact{
-  background-color: #fdffb6;
-}
-.placeholder{
-  background-color: #caffbf;
-}
+  } */
 
 
 
@@ -81,14 +92,20 @@ background-color: #ffadad;
 
 /* Desktop */
 @media screen and (min-width: 700px){
- main{
+  #left-column-desktop{
+    display:block ;
+  }
+  #right-column-desktop{
+    display: block;
+  }
+  main{
     
     display: flex;
 }  
 /* Every child div of the main flex container */
 main > div {
   
-  border: 1px solid rgb(248, 233, 246);
+  /* border: 1px solid rgb(248, 233, 246); */
   flex: 1;
 }
 /* The second div element of the parent 'main' */
@@ -98,10 +115,10 @@ main > div:nth-of-type(2){
   
   }
 #left-column-desktop{
-  background-color: blue;
+  background-color: #2a9d8f;
 }
 #right-column-desktop{
-  background-color: chocolate;
+  background-color: #2a9d8f;
 }
 
 

@@ -189,3 +189,24 @@
   }
   
     /* End Nav */
+
+
+
+
+
+        /* Foter Start */
+
+        .flex-wrapper {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+
+        .footer{
+            text-align: center;
+            background-color: #1a665d;
+        }
+
+        /* Foter End */
+        
