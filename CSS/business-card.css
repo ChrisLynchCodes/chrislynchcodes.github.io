@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90vw;
+    width: 98vw;
     /* border: 4px solid rgb(0, 255, 34); */
     background-color:#1c1c1c ;
     color: whitesmoke;
@@ -31,7 +31,7 @@
         width: 50vw;;
     }
 }
-
+/* 
 .card {
     perspective: 150rem;
     height: 10rem;
@@ -85,4 +85,4 @@
 }
 .card__cta p > .space {
     margin-left: 2rem;
-}
+} */

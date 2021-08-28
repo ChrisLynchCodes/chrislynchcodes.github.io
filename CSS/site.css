@@ -116,7 +116,7 @@ main > div:nth-of-type(2){
 }
 
 .card-container{
-  width: 50vw;
+display: none;
 }
   
   }
