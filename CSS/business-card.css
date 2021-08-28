@@ -26,6 +26,12 @@
 
 
 }
+@media screen and (min-width: 700px){
+    .card-container{
+        width: 50vw;;
+    }
+}
+
 .card {
     perspective: 150rem;
     height: 10rem;
