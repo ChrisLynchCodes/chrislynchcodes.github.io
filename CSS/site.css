@@ -61,7 +61,13 @@ main{
   color: #36498f;
 
 }
+.about-container{
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 
   /* .about, 
   .projects, 

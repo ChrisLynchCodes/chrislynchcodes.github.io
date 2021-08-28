@@ -17,7 +17,7 @@
     list-style: none;
 }
 .content {
-    height: 100vh;
+    /* height: 100vh; */
     color: white;
     display: flex;
     justify-content: center;
