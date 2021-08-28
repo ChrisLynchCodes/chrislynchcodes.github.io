@@ -25,14 +25,18 @@
     color: whitesmoke;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-
-   
-
-
+    padding-top: 2%;
 }
+
 .card-content{
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+
+.test-card{
+    background-color: #171717;
+    background-image: none;
 }
 @media screen and (min-width: 700px){
     .card-container{
