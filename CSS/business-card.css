@@ -26,6 +26,8 @@
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-top: 5%;
+    border:3px solid #D4AF37;
+    
 }
 
 .card-content{
@@ -34,10 +36,6 @@
 }
 
 
-.test-card{
-    background-color: #171717;
-    background-image: none;
-}
 @media screen and (min-width: 700px){
     .card-container{
         width: 50vw;;

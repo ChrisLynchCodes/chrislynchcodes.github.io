@@ -61,6 +61,13 @@ main{
   color: #36498f;
 
 }
+
+.test-two{
+ 
+    writing-mode: vertical-lr;
+    float:right ;
+  
+}
 .about-container{
 
     display: flex;
