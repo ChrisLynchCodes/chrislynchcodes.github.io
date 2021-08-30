@@ -62,12 +62,6 @@ main{
 
 }
 
-.test-two{
- 
-    writing-mode: vertical-lr;
-    float:right ;
-  
-}
 .about-container{
 
     display: flex;
@@ -75,7 +69,7 @@ main{
     align-items: center;
     /* border: 4px solid rgb(218, 56, 196); */
     padding-top: 2%;
-    background-color: aliceblue;
+    background-color:aliceblue;
 
     
 
