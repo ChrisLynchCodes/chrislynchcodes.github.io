@@ -40,10 +40,10 @@ p{
 } 
 
 
-#left-column-desktop{
+.left-column-desktop{
   display: none;
 }
-#right-column-desktop{
+.right-column-desktop{
   display: none;
 }
   
@@ -55,6 +55,7 @@ main{
   padding-top: 64px;
   
 }
+
 .center-column-desktop > section:nth-of-type(odd)
 { 
   background-color: #161d20;
@@ -75,15 +76,7 @@ main{
 
 }
 
-  /* .about, 
-  .projects, 
-  .contact,
-  .guestbook{
-    border-width: 0.1em;
-    border-color: rgb(0, 0, 0);
-    border-style: solid;
 
-  } */
 
 
 
@@ -91,20 +84,16 @@ main{
 
 /* Desktop */
 @media screen and (min-width: 700px){
-  #left-column-desktop{
+  .left-column-desktop{
     display:block;
     background-color: #2a9d8f;
   }
-  #right-column-desktop{
+  .right-column-desktop{
     display: block;
     background-color: #2a9d8f;
   }
-  /* main{
-    
-    display: flex;
-    flex-direction: column;
-    padding-top: 64px;
-}   */
+
+}
 /* Every child div of the main flex container */
 main > div {
   
@@ -117,51 +106,24 @@ main > div:nth-of-type(2){
   /* border: 1px solid rgb(218, 56, 196);  */
 }
 
-.card-container{
+/*  
+ .card-container{
 display: none;
-}
+}  */
   
-  }
+  
 
 
+/*
+   .about-container, 
+  .projects, 
+  .contact,
+  .guestbook{
+    border-width: 0.1em;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
 
-
-.columns{
-  border: 3px solid rgb(151, 20, 129);
-  display: flex;
-}
-/* Every child div of the columns container */
-.columns > div{
-  border: 1px solid rgb(248, 233, 246);
-  flex: 0;
-}
-
-/* The second div element of the parent 'columns' */
-.columns > div:nth-of-type(2){
-  flex: 4;
-}
-.print{
-align-items: center;
-}
-/* Mobile first */
-.desktop, 
-.printer{
-  display: none;
-}
-
-/* Print */
-
-@media print {
-  .mobile, .desktop{
-    display: none;
-  }
-
-  .printer{
-    display: block;
-  }
-
-}
-
+  }  */
 
 
 
