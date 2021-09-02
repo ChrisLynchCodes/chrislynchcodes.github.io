@@ -56,9 +56,15 @@ main{
   
 }
 
+.center-column-desktop > section:nth-of-type(even)
+{ 
+  background-color: aliceblue;
+  color: #36498f;
+
+}
 .center-column-desktop > section:nth-of-type(odd)
 { 
-  background-color: #161d20;
+  background-color:#161d20;
   color: #36498f;
 
 }
@@ -70,7 +76,7 @@ main{
     align-items: center;
     /* border: 4px solid rgb(218, 56, 196); */
     padding-top: 2%;
-    background-color:aliceblue;
+ 
 
     
 
@@ -86,11 +92,11 @@ main{
 @media screen and (min-width: 700px){
   .left-column-desktop{
     display:block;
-    background-color: #2a9d8f;
+    background-color: #ddf5ff;
   }
   .right-column-desktop{
     display: block;
-    background-color: #2a9d8f;
+    background-color: #ddf5ff;
   }
 
 }
@@ -125,6 +131,11 @@ display: none;
 
   }  */
 
-
+.projects, .contact, .guestbook{
+  background-image: url("../Media/coming\ soon.jpg");
+  background-position:center;
+  background-color: transparent
+  transp
+}
 
 
