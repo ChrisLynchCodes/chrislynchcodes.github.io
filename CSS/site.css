@@ -112,12 +112,9 @@ main > div:nth-of-type(2){
   /* border: 1px solid rgb(218, 56, 196);  */
 }
 
-/*  
- .card-container{
-display: none;
-}  */
-  
-  
+.sumary{
+  padding-top: 5%;
+}
 
 
 /*
