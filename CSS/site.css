@@ -16,6 +16,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
     line-height: 1.6;
     background-color: #171717;
+    
    
     
 
@@ -40,34 +41,29 @@ p{
 } 
 
 
-.left-column-desktop{
-  display: none;
-}
-.right-column-desktop{
-  display: none;
-}
-  
+
   
 
 main{
-  display: flex;
-  flex-direction: row;
+
   padding-top: 64px;
   
 }
 
-.center-column-desktop > section:nth-of-type(even)
+.main-sections > section:nth-of-type(even)
 { 
   background-color: aliceblue;
   color: #36498f;
 
 }
-.center-column-desktop > section:nth-of-type(odd)
+.main-sections  > section:nth-of-type(odd)
 { 
   background-color:#161d20;
-  color: #bcbfca;
+  color: #36498f;
 
 }
+
+
 
 .about-container{
 
@@ -78,12 +74,17 @@ main{
     padding-top: 2%;
  
 
-    
-
 }
-
-
-
+.projects-container{
+ 
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+  
+}
 
 
 
@@ -92,11 +93,11 @@ main{
 @media screen and (min-width: 700px){
   .left-column-desktop{
     display:block;
-    background-color: #ddf5ff;
+
   }
   .right-column-desktop{
     display: block;
-    background-color: #ddf5ff;
+   
   }
 
 }
@@ -113,7 +114,7 @@ main > div:nth-of-type(2){
 }
 
 .sumary{
-  padding-top: 5%;
+  padding-top: 2%;
 }
 
 
@@ -128,11 +129,11 @@ main > div:nth-of-type(2){
 
   }  */
 
-.projects, .contact, .guestbook{
+.projects-container, .contact, .guestbook{
   background-image: url("../Media/coming\ soon.jpg");
   background-position:center;
   background-color: transparent
-  transp
+  
 }
 
 

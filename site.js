@@ -27,3 +27,5 @@ navbarLinksContainer.addEventListener("click", (clickEvent) => {
 });
 
 navbarMenu.addEventListener("click", closeMobileNavbar);
+
+
